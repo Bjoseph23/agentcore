@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AgentCoreMemoryAccess",
+      "Effect": "Allow",
+      "Action": [
+        "bedrock-agentcore:GetMemory",
+        "bedrock-agentcore:CreateEvent",
+        "bedrock-agentcore:ListEvents",
+        "bedrock-agentcore:RetrieveMemoryRecords",
+        "bedrock-agentcore:ListMemoryRecords"
+      ],
+      "Resource": "arn:aws:bedrock-agentcore:us-east-1:470854800662:memory/wanderbot_long_term-s5QsaX8cSk"
+    }
+  ]
+}
